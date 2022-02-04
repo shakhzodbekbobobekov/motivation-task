@@ -25,12 +25,6 @@ body {
     display: none;
 }
 
-.wrapper div {
-    border: 1px solid green;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 .motiv {
     width: 500px;
     min-height: 150px;
@@ -68,6 +62,79 @@ body {
     letter-spacing: 2px;
     opacity: 0;
 }
+
+/* Media Quarey */
+@media( min-width: 0 ) and ( max-width: 350px ) {
+    .wrapper {
+        max-width: 250px;
+        text-align: right;
+        display: none;
+    }
+    
+    .motiv {
+        max-width: 150px;
+        min-height: 70px;
+        padding: 4px 8px;
+        border-radius: 2px;
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    
+    .btn {
+        margin: 5px 0;
+        padding: 2px 5px;
+        border: none;
+        border-radius: 2px;
+        background-color: rgb(3, 165, 3);
+        color: #fff;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    .auf {
+        font-size: 10px;
+        opacity: 0;
+    }
+}
+
+
+@media( min-width: 351px ) and ( max-width: 768px ) {
+    .wrapper {
+        max-width: 500px;
+        text-align: right;
+        display: none;
+        /* padding: 20px; */
+    }
+    
+    .motiv {
+        max-width: 350px;
+        min-height: 120px;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        text-align: left;
+    }    
+    
+    .btn {
+        margin: 8px 0;
+        padding: 4px 8px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(3, 165, 3);
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .auf {
+        font-size: 14px;
+        opacity: 0;
+    }
+}
+/* /Media Quarey */
+
+
+
+
 
 
 /* Loader */

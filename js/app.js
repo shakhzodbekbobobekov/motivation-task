@@ -8,7 +8,7 @@ setTimeout(() => {
     loader.style.display = 'none'
     wrapper.style.display = 'block'    
     auf.style.opacity = 1    
-}, 1500)
+}, 100)
 
 btn.addEventListener('click', () => {
     fetch("https://api.adviceslip.com/advice")
