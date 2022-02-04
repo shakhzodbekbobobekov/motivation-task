@@ -22,6 +22,7 @@ body {
 .wrapper {
     max-width: 800px;
     text-align: right;
+    display: none;
 }
 
 .wrapper div {
@@ -31,12 +32,15 @@ body {
 }
 
 .motiv {
+    width: 500px;
+    min-height: 150px;
     border: none;
     border: 1px dotted green;
     padding: 10px 15px;
     outline: none;
     border-radius: 5px;
     font-size: 2.5rem;
+    text-align: justify;
 }
 
 
@@ -57,4 +61,10 @@ body {
 
 .btn:active {
     opacity: 0.6;
+}
+
+.auf {
+    font-size: 16px;
+    letter-spacing: 2px;
+    opacity: 0;
 }
