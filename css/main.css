@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+*:focus {
+    outline: 1px dotted #145803;
+    outline-offset: 3px;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 800px;
+    text-align: right;
+}
+
+.wrapper div {
+    border: 1px solid green;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.motiv {
+    border: none;
+    border: 1px dotted green;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+
+.btn {
+    margin: 10px 0;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 165, 3);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.6;
+}
